@@ -1,0 +1,20 @@
+PODS:
+  - AlamofireAmazonProductsAPIClient (0.1.0)
+  - Nimble (3.2.0)
+  - Quick (0.9.2)
+
+DEPENDENCIES:
+  - AlamofireAmazonProductsAPIClient (from `../`)
+  - Nimble (~> 3.0)
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  AlamofireAmazonProductsAPIClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlamofireAmazonProductsAPIClient: e5f25a76faa21b85d2d14a721abc799b11d00c97
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+
+COCOAPODS: 0.39.0

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "AlamofireAmazonProductsAPIClient"
   s.version          = "0.1.0"
-  s.summary          = "A short description of AlamofireAmazonProductsAPIClient."
+  s.summary          = "An Alamofire extension to interact with the Amazon Products Advertising API."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+An extensible Amazon Products Advertising API client built with the power of Alamofire
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/AlamofireAmazonProductsAPIClient"
+  s.homepage         = "https://github.com/tobiaghiraldini/AlamofireAmazonProductsAPIClient"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Tobia Ghiraldini" => "tobia.ghiraldini@ninjabit.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/AlamofireAmazonProductsAPIClient.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/tobiaghiraldini/AlamofireAmazonProductsAPIClient.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/tobia.ghiraldini'
 
   s.ios.deployment_target = '8.0'
 

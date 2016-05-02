@@ -1,0 +1,6 @@
+framework module Pods_AlamofireAmazonProductsAPIClient_Example {
+  umbrella header "Pods-AlamofireAmazonProductsAPIClient_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
