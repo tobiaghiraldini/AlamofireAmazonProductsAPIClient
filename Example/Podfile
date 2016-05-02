@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'AlamofireAmazonProductsAPIClient_Example', :exclusive => true do
+  pod 'AlamofireAmazonProductsAPIClient', :path => '../'
+end
+
+target 'AlamofireAmazonProductsAPIClient_Tests', :exclusive => true do
+  pod 'AlamofireAmazonProductsAPIClient', :path => '../'
+
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+end
